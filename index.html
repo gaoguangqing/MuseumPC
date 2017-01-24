@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>故宫博物院珍藏宝</title>
+	</head>
+	<style>
+	*
+	{
+	    margin:0;
+	    padding:0;
+	}
+	html,body
+	{
+	    height:100%;
+	    width:100%;
+	}
+	body
+	{
+        background-color:black;  	
+	}
+	/*.Wholebox
+	{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:200px;
+		left:200px;
+	}*/
+	#picture1
+	{
+		 /*display: block;*/
+		 width:1024px;
+		 height: 70px;
+		 position:relative;
+		 float:left;
+		 top:70px;
+		 left:190px;
+	}
+	#picture2
+	{
+		/*display:block;*/
+		width:1024px;
+		height:560px;
+		position:relative;
+		float:left;
+		top:75px;
+		left:190px;
+	}
+	#picuture3
+	{
+		/*display:block;*/
+		width:1024px;
+		height:30px;
+		position:relative;
+		float:left;
+		top:80px;
+		left:190px;
+	}
+	.Wholebox
+	{
+		width:482px;
+		height:30px;
+		position: absolute;
+		 left: 190px;
+		 top:159px;
+		margin:0 auto;
+	}
+	.Wholebox .Btn
+	{
+		width:120px;
+		height:40px;
+		float:left;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	.Btn .text
+	{
+		 display: block;
+	     width:119px;
+	     height:37px;
+	     marign: 5px auto;
+	     color:white;
+	     text-align:center;
+	     line-height:1;
+	     border-right:1px dashed darkgray;
+	}
+	.Btn:hover{
+		 overflow:visible;
+	}
+	.Wholebox .Btn:last-child .text
+    {
+	     border:none;
+    }
+    .Btn .List
+    {
+    	width: 100%;
+	    list-style:none;
+    }
+    .Btn span{
+    	display: block;
+    	width: 100%;
+    }
+    .List li
+{
+       width:100px;
+       height:30px;
+       border-bottom:1px solid white;
+       color:lightgray;
+       line-height: 30px;
+       text-align: center;	
+}	
+.List li a{
+	text-decoration: none;
+}
+	</style>
+	<body>
+	 <img src="img/001.jpg" id="picture1"/>
+	 <img src="img/002.jpg" id="picture2"/>
+	 <img src="img/003.jpg" id="picuture3"/>
+	   <div class="Wholebox">
+	
+	     <div class="Btn">
+	       <span class="text">基本简介</span>
+	       <ul class="List">
+	       <li><a href="#" font-color="white">地理简介</a></li>
+	       <li><a href="#" font-color="white">历史简介</a></li>
+	       <li><a href="#" font-color="white">建筑简介</a></li>
+	       </ul>
+	     </div>
+	     <div class="Btn">
+	       <span class="text">典藏珍宝</span>
+	       <ul class="List">
+	       <li><a href="#" font-color="white">文房四宝</a></li>
+	       <li><a href="#" font-color="whtie">瓷器用具</a></li>
+	       <li><a href="#" font-color="white">家具摆设</a></li>
+	       </ul>
+	     </div>
+	     <div class="Btn">
+	       <span class="text">参观导览</span>
+	       <ul class="List">
+	       <li><a href="#" font-color="white">开放时间</a></li>
+	       <li><a href="#" font-color="white">票价查询</a></li>
+	       <li><a href="#" font-color="white">路线查询</a></li>
+	       </ul>
+	     </div>
+         <div class="Btn">
+	       <span class="text">趣味游戏</span>
+	       <ul class="List">
+	       <li><a href="page2.html" font-color="white">寻宝游戏</a></li>
+	       </ul>
+	     </div>
+	   </div>	
+	   <audio src="img/music.mp3" autoplay="autoplay" loop="loop" id="musicPlayer"></audio>
+	</body>
+</html>
